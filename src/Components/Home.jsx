@@ -18,15 +18,16 @@ const Home = () => {
           }}
         />
       </div>
-      <div className="top-7 sm:top-0 sm:flex-row md:gap-14 md:px-6 relative flex flex-col items-center justify-center h-full gap-8 px-4 py-5 mx-auto">
+      <div className="top-7 sm:top-0 sm:flex-row md:gap-14 md:px-6 relative flex flex-col items-center justify-center h-full gap-6 px-4 py-5 mx-auto">
         <div className="sm:text-left sm:ml-5 dark:text-gray-200 flex flex-col max-w-md text-center duration-100">
-          <p className="md:pt-0 sm:text-2xl pt-5 text-3xl font-semibold tracking-wide">
-            I'm a Frontend Web Developer
+          <p className="md:pt-0 md:text-3xl pt-5 text-2xl font-semibold tracking-wide">
+            I'm a Full Sack Web Developer
           </p>
-          <p className="py-7 sm: text-lg">
-            Welcome to my portfolio! I'm a dedicated frontend developer who
-            loves working with React and Tailwind, creating stunning and
-            responsive user interfaces.
+          <p className="sm:text-lg py-5">
+            Welcome to my portfolio! I'm a versatile fullstack developer skilled
+            in React, Tailwind, and backend technologies. I craft seamless
+            applications, harmonizing frontend aesthetics with robust backend
+            functionality for exceptional user experiences.
           </p>
           <Link
             to="portfolio"
@@ -44,7 +45,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="pp"
-            className="md:w-64 object-cover w-2/3 mx-auto rounded-lg"
+            className="md:w-64 object-cover w-3/5 mx-auto rounded-lg"
           />
         </div>
       </div>

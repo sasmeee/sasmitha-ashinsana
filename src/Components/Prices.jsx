@@ -6,7 +6,7 @@ const Prices = () => {
       id: 1,
       title: "Basic Plan",
       description: "Perfect for starters",
-      price: "$9.99",
+      price: "$19.99",
       features: [
         {
           fea01: true,
@@ -25,7 +25,7 @@ const Prices = () => {
       id: 2,
       title: "Standard Plan",
       description: "Great for small businesses",
-      price: "$19.99",
+      price: "$29.99",
       features: [
         {
           fea01: true,
@@ -44,7 +44,7 @@ const Prices = () => {
       id: 3,
       title: "Premium Plan",
       description: "Ideal for power users",
-      price: "$29.99",
+      price: "$39.99",
       features: [
         {
           fea01: true,

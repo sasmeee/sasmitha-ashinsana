@@ -19,15 +19,14 @@ const About = () => {
         <p className="dark:border-gray-200 sm:my-7 py-3 text-2xl duration-100 border-b-2 border-gray-800">
           About
         </p>
-        <p className="sm:text-base text-lg">
-          Welcome to my portfolio! I am a Frontend Web Developer who loves
-          creating beautiful and easy-to-use websites. I work hard to make sure
-          my projects are top-notch. My favorite tools are ReactJS and Tailwind,
-          which help me build interactive and stylish websites. I am also
-          skilled in UI/UX design, making sure that the websites I create look
-          amazing and provide the best user experience. If you need someone to
-          design your dream website, don't hesitate to contact me. Let's work
-          together to bring your ideas to life!
+        <p className="md:text-lg">
+          Welcome to my portfolio! I'm a dedicated Fullstack Developer committed
+          to creating visually appealing and user-friendly websites. My
+          expertise in ReactJS, Tailwind, and backend technologies enables me to
+          craft interactive, stylish sites with seamless functionality.
+          Proficient in UI/UX design, I ensure stunning visuals and exceptional
+          user experiences. Contact me to bring your dream website to life with
+          a fullstack touch!
         </p>
       </div>
     </div>

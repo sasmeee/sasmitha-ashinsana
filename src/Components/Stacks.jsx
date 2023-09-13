@@ -1,10 +1,11 @@
 import React from "react";
-import { SiExpress, SiFlutter, SiTailwindcss } from "react-icons/si";
+import { SiExpress, SiFirebase, SiFlutter, SiTailwindcss } from "react-icons/si";
 import {
   DiCss3,
   DiHtml5,
   DiJavascript,
   DiMongodb,
+  DiMysql,
   DiNodejs,
   DiReact,
 } from "react-icons/di";
@@ -19,7 +20,9 @@ const Stacks = () => {
     { id: 6, name: "Express JS", icon: <SiExpress color="#000000" size={28} /> },
     { id: 7, name: "Mongo DB", icon: <DiMongodb color="#47A248" size={28} /> },
     { id: 8, name: "Tailwind CSS", icon: <SiTailwindcss color="#38B2AC" size={28} /> },
-    { id: 9, name: "Flutter", icon: <SiFlutter color="#078fff" size={25} /> },
+    { id: 9, name: "MySQL", icon: <DiMysql color="#4479A1" size={28} /> },
+    { id: 10, name: "Firebase", icon: <SiFirebase color="#FFCA28" size={28} /> },
+    { id: 11, name: "Flutter", icon: <SiFlutter color="#078fff" size={25} /> },
   ];
 
   return (

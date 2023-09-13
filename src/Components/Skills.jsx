@@ -28,7 +28,9 @@ const Skills = () => {
     { id: 6, name: "Node JS", value: 75 },
     { id: 7, name: "Express JS", value: 60 },
     { id: 8, name: "Mongo DB", value: 45 },
-    { id: 9, name: "Flutter", value: 65 },
+    { id: 9, name: "MySQL", value: 60 },
+    { id: 10, name: "Firebase", value: 60 },
+    { id: 11, name: "Flutter", value: 65 },
   ];
 
   return (

@@ -1,10 +1,9 @@
 # Sasmitha Ashinsana's Portfolio
 
-Welcome to my portfolio! This repository contains the code for my personal portfolio website. The website showcases my skills, projects, and experiences in Fronend Developer. It serves as a central hub for anyone interested in learning more about me and my work.
+I'm Sasmitha Ashinsana, a dedicated Fullstack Developer committed to creating visually appealing and user-friendly websites. With a strong foundation in HTML, CSS, and JavaScript, I specialize in ReactJS, Tailwind, and backend technologies. My expertise enables me to craft interactive, stylish sites with seamless functionality. Proficient in UI/UX design, I ensure stunning visuals and exceptional user experiences.
 
-## About Me
+This portfolio serves as a showcase of my skills, experience, and accomplishments. Contact me to bring your dream website to life with a fullstack touch!
 
-I am Sasmitha Ashinsana, a passionate and creative Frontend Development. I love working on various design and development projects, and this portfolio serves as a showcase of my skills, experience, and accomplishments.
 
 ## Contact
 
