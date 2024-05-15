@@ -3,7 +3,7 @@ import React from "react";
 const ProgressBar = ({ name, value }) => {
   const progress = value;
   return (
-    <div className="sm:mb-4 w-full mb-2">
+    <div className="w-full mb-2 sm:mb-4">
       <div className="flex items-center justify-between">
         <span>{name}</span>
         <span>{`${progress}%`}</span>
@@ -30,13 +30,12 @@ const Skills = () => {
     { id: 8, name: "Mongo DB", value: 45 },
     { id: 9, name: "MySQL", value: 60 },
     { id: 10, name: "Firebase", value: 60 },
-    { id: 11, name: "Flutter", value: 65 },
   ];
 
   return (
     <div className="w-full h-full mx-auto">
       <div
-        className="blur-3xl transform-gpu absolute inset-x-0 overflow-hidden"
+        className="absolute inset-x-0 overflow-hidden blur-3xl transform-gpu"
         aria-hidden="true"
       >
         <div
@@ -47,11 +46,11 @@ const Skills = () => {
           }}
         />
       </div>
-      <div className="dark:text-gray-200 flex flex-col items-center justify-center h-full gap-4 px-4 mx-auto duration-100">
-        <p className="dark:border-gray-200 sm:my-7 py-3 text-2xl duration-100 border-b-2 border-gray-800">
+      <div className="flex flex-col items-center justify-center h-full gap-4 px-4 mx-auto duration-100 dark:text-gray-200">
+        <p className="py-3 text-2xl duration-100 border-b-2 border-gray-800 dark:border-gray-200 sm:my-7">
           Skills
         </p>
-        <div className="sm:grid-cols-2 grid w-full max-w-screen-lg grid-cols-1 gap-4 px-4 mx-auto">
+        <div className="grid w-full max-w-screen-lg grid-cols-1 gap-4 px-4 mx-auto sm:grid-cols-2">
           {languages.map(({ id, name, value }) => (
             <ProgressBar key={id} name={name} value={value} />
           ))}

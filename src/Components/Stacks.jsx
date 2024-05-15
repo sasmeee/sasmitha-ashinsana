@@ -1,5 +1,5 @@
 import React from "react";
-import { SiExpress, SiFirebase, SiFlutter, SiTailwindcss } from "react-icons/si";
+import { SiExpress, SiFirebase, SiTailwindcss } from "react-icons/si";
 import {
   DiCss3,
   DiHtml5,
@@ -22,22 +22,21 @@ const Stacks = () => {
     { id: 8, name: "Tailwind CSS", icon: <SiTailwindcss color="#38B2AC" size={28} /> },
     { id: 9, name: "MySQL", icon: <DiMysql color="#4479A1" size={28} /> },
     { id: 10, name: "Firebase", icon: <SiFirebase color="#FFCA28" size={28} /> },
-    { id: 11, name: "Flutter", icon: <SiFlutter color="#078fff" size={25} /> },
   ];
 
   return (
-    <div className="sm:mt-28 mt-7 w-full h-full mx-auto">
-      <div className="dark:text-gray-200 flex flex-col items-center justify-center h-full gap-4 px-4 mx-auto duration-100">
-        <p className="dark:border-gray-200 sm:my-7 py-3 text-2xl duration-100 border-b-2 border-gray-800">
+    <div className="w-full h-full mx-auto sm:mt-28 mt-7">
+      <div className="flex flex-col items-center justify-center h-full gap-4 px-4 mx-auto duration-100 dark:text-gray-200">
+        <p className="py-3 text-2xl duration-100 border-b-2 border-gray-800 dark:border-gray-200 sm:my-7">
           Tech Stacks
         </p>
-        <div className="sm:grid-cols-4 sm:gap-5 grid grid-cols-2 gap-3">
+        <div className="grid grid-cols-2 gap-3 sm:grid-cols-4 sm:gap-5">
           {techStacks.map(({ id, name, icon }) => (
             <div
               key={id}
-              className="dark:bg-gray-800 dark:border-gray-700 duration-100 bg-white border border-gray-200 rounded-lg shadow-lg"
+              className="duration-100 bg-white border border-gray-200 rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700"
             >
-              <div className="dark:bg-slate-700 py-auto flex items-center justify-center h-12 px-2 duration-100 bg-gray-200">
+              <div className="flex items-center justify-center h-12 px-2 duration-100 bg-gray-200 dark:bg-slate-700 py-auto">
                 {icon}
               </div>
               <p className="px-2 py-2 text-center">{name}</p>
