@@ -6,7 +6,7 @@ const Prices = () => {
       id: 1,
       title: "Basic Plan",
       description: "Perfect for starters",
-      price: "$19.99",
+      price: "$69.99",
       features: [
         {
           fea01: true,
@@ -25,7 +25,7 @@ const Prices = () => {
       id: 2,
       title: "Standard Plan",
       description: "Great for small businesses",
-      price: "$29.99",
+      price: "$99.99",
       features: [
         {
           fea01: true,
@@ -44,7 +44,7 @@ const Prices = () => {
       id: 3,
       title: "Premium Plan",
       description: "Ideal for power users",
-      price: "$39.99",
+      price: "$149.99",
       features: [
         {
           fea01: true,
@@ -75,30 +75,30 @@ const Prices = () => {
 
   return (
     <div className="w-full h-full mx-auto">
-      <div className="dark:text-gray-200 flex flex-col items-center justify-center h-full gap-4 px-4 mx-auto duration-100">
-        <p className="dark:border-gray-200 sm:my-7 py-3 text-2xl duration-100 border-b-2 border-gray-800">
+      <div className="flex flex-col items-center justify-center h-full gap-4 px-4 mx-auto duration-100 dark:text-gray-200">
+        <p className="py-3 text-2xl duration-100 border-b-2 border-gray-800 dark:border-gray-200 sm:my-7">
           Pricing
         </p>
-        <div className="sm:grid-cols-3 relative grid grid-cols-1 gap-6">
+        <div className="relative grid grid-cols-1 gap-6 sm:grid-cols-3">
           {priceList.map(({ id, title, description, price, features }) => (
             <div
               key={id}
-              className="dark:bg-gray-800 dark:border-gray-700 p-6 duration-100 bg-white border border-gray-200 rounded-lg shadow-lg"
+              className="p-6 duration-100 bg-white border border-gray-200 rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700"
             >
-              <h2 className="dark:text-white mb-2 text-xl font-semibold text-gray-800 duration-100">
+              <h2 className="mb-2 text-xl font-semibold text-gray-800 duration-100 dark:text-white">
                 {title}
               </h2>
-              <p className="dark:text-gray-400 mb-4 text-gray-500 duration-100">
+              <p className="mb-4 text-gray-500 duration-100 dark:text-gray-400">
                 {description}
               </p>
-              <div className="dark:text-white text-2xl font-bold text-gray-800 duration-100">
+              <div className="text-2xl font-bold text-gray-800 duration-100 dark:text-white">
                 {price}
               </div>
               <ul className="mt-4">
                 {Object.keys(features[0]).map((feaKey, index) => (
                   <li key={index} className="flex items-center">
                     <span
-                      className="dark:text-white text-gray-800 duration-100"
+                      className="text-gray-800 duration-100 dark:text-white"
                       style={{
                         marginRight: "0.5rem",
                       }}
